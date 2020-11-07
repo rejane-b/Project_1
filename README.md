@@ -1,4 +1,4 @@
-# Analysis of Global Countries' Covid-19 Pandemic Responses
+<h1 align ="center"><span>Analysis of Global Countries'<br/>Covid-19 Pandemic Responses</span></h1>
 By Leslie Vazquez, Steven Pennington, Wolphy, Joseph, Rejane Beringer, and Brian Roberts
 
 #### Motivation: 	      
