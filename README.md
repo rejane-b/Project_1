@@ -1,5 +1,5 @@
 <h1 align ="center"><span>Analysis of Global Countries'<br/>Covid-19 Pandemic Responses</span></h1>
-By Leslie Vazquez, Steven Pennington, Wolphy, Joseph, Rejane Beringer, and Brian Roberts
+<h6 align ="center"><span>By Leslie Vazquez, Steven Pennington, Wolphy, Joseph, Rejane Beringer, and Brian Roberts</span></h6>
 
 #### Motivation: 	      
 The motivation for our project stemmed from a desire to investigate a current, real-world circumstance or situation that impacts our everyday lives. So obviously, the Covid-19 pandemic stuck out like a sore thumb. And the last thing any of us wanted to place more focus on was the upcoming election (lol). The pandemic has been at the forefront of the entire globe’s mind and efforts since the year 2020 began, dramatically altering the way we all function in today’s world, and endlessly stocking media timeslots on every network.  If asked how you believe the United States has handled the Covid-19 Pandemic, I have a feeling the general consensus would be “not very well at all”.  The media constantly shows the rates of infection and deaths, and the impact on economies both here and abroad.  The lack of action by our government increases our frustration and time spent away from our friends and loved ones while some countries seem to have actually already “rounded-the-corner” and returned to some essence of normalcy. These circumstances led our group to ponder what other governments have done to curb the spread of the virus, protect their citizens, and weather this storm of uncertainty that has loomed over humanity for over 10 months now.
@@ -37,20 +37,20 @@ The data analysis pertaining to our primary hypothesis was fairly straightforwar
 
 ### Supplemental Questions:
 
-###### Q1: 
+##### Q1: 
 Comparing the spending of each country in relation to the spread of the virus was a very daunting task.  A great deal of time was spent examining how different pairs of countries of interest had spent portions of GDP towards curbing the virus, whether that be acquiring PPE for healthcare workers, or providing economic aid to its citizens in response to the closure of so many businesses.  The dataframe was exported to Excel to evaluate for further insights. Ultimately, linear regression and a Pearson’s R Coefficient to numerically evaluate for a relationship. The difficulties with answering this question were not in the technical details. Sub data frames comparing countries spending and increasing cases were straightforward, and the same went for the correlation and regression. The largest problem here was staying specific to the question. While exploring the data, it was noticeable that a great deal of the countries that had spent little money, also had a smaller proportion of the cases.  
 
-###### Q2: 
+##### Q2: 
 The process for exploring the relationship between government information dissemination and Covid-19 case and mortality rate was performed by grouping the data on government  information output in the original dataframe by country and date aligned with spread of cases and deaths later, to evaluate at eye-glance for any possible trends that jumped out.  Because of the format of this information, graphing, and especially graphing all of the countries of interest together to observe differences and possible nuances, was exceedingly difficult. A linear regression was ultimately run but did not yield what we expected. The expectation was that more intensive campaigns would result in lower case rates. Empirical findings showed the New Zealand, Japan and Sweden, the countries with the lower average confirmed cases, had information campaigns starting with officials urging caution, then one month into the campaign, jumping to a maximum value for information output. 
 
-###### Q3:  
+##### Q3:  
 The final question we considered was the impact of geographic spread and population density. This was used as a metric of counter to our original hypothesis. We wanted to determine if population density served as a limiting factor to how well a government’s mandates could impact covid-19 spread.  A second dataset from the website Our World in Data needed to be cleaned to allow for investigation. This was completed by selecting the relevant columns that pertained to the question, aided by a specific delimiter join function denoted as ‘magic’ and then locating the countries of interest. It was surprising to see the UK at such a high rate of transmission given the countries standing amongst the others in terms of density.         
 
 --------
 
 ### Post-mortem
 
-###### Difficulties:  
+##### Difficulties:  
 The most major problem we dealt with throughout this project was defining, and redefining, our scope. The original idea of comparing the effectiveness of global countries’ Covid-19 government responses was incredibly exciting and the variety of factors we could delve into grew organically during our first group meeting. Over time however, and with the addition of the necessity for statistical testing, the end-goal of the project and what could be accomplished in the two-week period immediately narrowed.  To deal with this we decided to make our primary hypothesis focus directly on the relation between mandate strictness and the effect Covid-19 has had on their respective populations.  But we did not want to limit the degree to which we explored our supplementary questions and data, so we looked to uncover progressive insights, even if not statistically significant at present. 
 	
 Another issue to take into consideration from this project stems from the original issue of scope. When trying to look deeper into how each countries’ mandates changed Covid-19 impact, a new variety of variables need to be considered when trying to determine causation, even if a correlation was found. Things such as population density, geography, the level of development in each country, and even the relationship and trust between central governments and their citizens can all influence how well a mandate works, no matter how strict it is.  As considerable variables grow, finding suitable and preferable ways to quantify and assess all of these variables can become overwhelming.   
@@ -59,17 +59,3 @@ Another issue to take into consideration from this project stems from the origin
 
 ### Further Research:
 Given more time we would need to rerun the mandate aggregation and averages for all of the countries present in the original dataframe. This would allow us to rerun the t-tests with much larger sample sizes for both the “Strict” and “Relaxed” groupings.  Additionally, it would have been very interesting to have developed a way to determine how impactful certain countries’ mandates resulted in preservation of life and limiting spread of the virus.  We were caught between opening our main analyses run to the entire dataset and trying to find specifically which countries’ mandates had the greatest impact on success. For most of our supplemental questions, more in-depth datasets relating to those variables would be ideal but we could not find readily available data for each of the questions we considered for all of the countries we investigated, although we had tried to select ones with high media coverage and are fully developed economically. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
