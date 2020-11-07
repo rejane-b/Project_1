@@ -28,8 +28,12 @@ Then, placing a loc on the dataframe to find country was initiated to groupby ma
 
 Finally, the mandates dataframe was run thorugh the describe function to find our overall mandate strictness across all countries, which was 1.4. From this, our groupings were defined as being “strict” or “relaxed” based one their position relative to this summary value. 
 
+--------
+
 ### Data Analysis
 The data analysis pertaining to our primary hypothesis was fairly straightforward. After reading in the cleaned dataframe, pandas’ .loc property was used to extract information for confirmed Cases and Deaths for both the groupings, being “Strict” and “Relaxed” countries defined during the Data Cleanup process.  Line plots were developed to assess for unexpected trends from this data. It is important to note that although these types of visualizations have the potential to show interesting phenomena, they can also be misleading due to scale. Without a reference to the total population of each country, it is hard to get an understanding of how the values compare to one another.  To account for this, the most recent date with records for all countries of interest was converted into its own dataframe, and a new column was appended with the total populations of each country.  The Confirmed Cases and Deaths per capita were found by dividing Confirmed values by populations and stored into a new dataframe. From here, bar charts can yield a more comprehensive picture of how Covid-19 spread, and the toll it had on each country, comparatively.  Between the two, scale should still be taken into account.  One interesting thing to investigate further would be to determine why these two graphs have discrepancies such as the UK. Possible explanations to investigate are comorbidities and the average level of health between each countries’ citizens. To statistically test our hypothesis, 2-Sample T-tests were run between the means of each groups Infection rates, and then between mortality rates. Before delving into the results of the T-tests, it was interesting to see that for our countries of interest the more relaxed countries had lower rates of infection and mortality. The resulting p-value for Infection Rate was 0.58 and the p-value for Mortality Rate was 0.60.  Immediately it was prevalent that the small sample sizes resulted in such large p-values. Obviously, the result being a failure to reject the null Hypothesis.  We can reflect on changes that could be made to this study to improve the accuracy of the statistical results in the Post-Mortem.   
+
+--------
 
 ### Supplemental Questions:
 
@@ -42,6 +46,8 @@ The process for exploring the relationship between government information dissem
 ###### Q3:  
 The final question we considered was the impact of geographic spread and population density. This was used as a metric of counter to our original hypothesis. We wanted to determine if population density served as a limiting factor to how well a government’s mandates could impact covid-19 spread.  A second dataset from the website Our World in Data needed to be cleaned to allow for investigation. This was completed by selecting the relevant columns that pertained to the question, aided by a specific delimiter join function denoted as ‘magic’ and then locating the countries of interest. It was surprising to see the UK at such a high rate of transmission given the countries standing amongst the others in terms of density.         
 
+--------
+
 ### Post-mortem
 
 ###### Difficulties:  
@@ -49,7 +55,9 @@ The most major problem we dealt with throughout this project was defining, and r
 	
 Another issue to take into consideration from this project stems from the original issue of scope. When trying to look deeper into how each countries’ mandates changed Covid-19 impact, a new variety of variables need to be considered when trying to determine causation, even if a correlation was found. Things such as population density, geography, the level of development in each country, and even the relationship and trust between central governments and their citizens can all influence how well a mandate works, no matter how strict it is.  As considerable variables grow, finding suitable and preferable ways to quantify and assess all of these variables can become overwhelming.   
 
-###### Further Research:
+--------
+
+### Further Research:
 Given more time we would need to rerun the mandate aggregation and averages for all of the countries present in the original dataframe. This would allow us to rerun the t-tests with much larger sample sizes for both the “Strict” and “Relaxed” groupings.  Additionally, it would have been very interesting to have developed a way to determine how impactful certain countries’ mandates resulted in preservation of life and limiting spread of the virus.  We were caught between opening our main analyses run to the entire dataset and trying to find specifically which countries’ mandates had the greatest impact on success. For most of our supplemental questions, more in-depth datasets relating to those variables would be ideal but we could not find readily available data for each of the questions we considered for all of the countries we investigated, although we had tried to select ones with high media coverage and are fully developed economically. 
 
 
