@@ -47,4 +47,4 @@ Population Density, Median Age (years), Aged 65 Older (%)), then the countries o
 
 Outside of the dataframe, I calculated the mortality rate per million people and rate of cases per km2 of area, for every country. 
 They were plotted bar and scatter charts and I also obtained the linear regression for ‘COVID Total Cases vs. Median Age (years)’ and
-‘COVID Total Deaths vs. Median Age (years)’
+‘COVID Total Deaths vs. Median Age (years)’.
