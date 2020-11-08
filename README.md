@@ -1,6 +1,7 @@
-Analysis of Global Countries'
-Covid-19 Pandemic Responses
+# Analysis of Global Countries'
+# Covid-19 Pandemic Responses
 By Leslie Vazquez, Steven Pennington, Wolphy, Joseph, Rejane Beringer, and Brian Roberts
+
 Introduction:
 This project stemmed from a desire to investigate a current, real-world circumstance or situation that impacts our everyday lives. So obviously, the Covid-19 pandemic stuck out like a sore thumb. And the last thing any of us wanted to place more focus on was the upcoming election (lol). The pandemic has been at the forefront of the entire globe’s mind and efforts since the year 2020 began, dramatically altering the way we all function in today’s world, and endlessly stocking media timeslots on every network. If asked how you believe the United States has handled the Covid-19 Pandemic, I have a feeling the general consensus would be “not very well at all”. The media constantly shows the rates of infection and deaths, and the impact on economies both here and abroad. The lack of action by our government increases our frustration and time spent away from our friends and loved ones while some countries seem to have actually already “rounded-the-corner” and returned to some essence of normalcy. These circumstances led our group to ponder what other governments have done to curb the spread of the virus, protect their citizens, and weather this storm of uncertainty that has loomed over humanity for over 10 months now.
 
